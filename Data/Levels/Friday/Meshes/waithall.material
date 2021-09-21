@@ -1,0 +1,14 @@
+material waithall_main_mat : CommonShaderNmOcc
+{
+	set_texture_alias DiffuseMap waithall_color.TGA
+	set_texture_alias OcclusionMap waithall_occ.TGA
+	set_texture_alias NormalMap waithall_nm.TGA
+
+	technique
+	{
+		pass
+		{
+			specular 0.1 0.1 0.1 8
+		}
+	}
+}

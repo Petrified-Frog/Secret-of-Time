@@ -1,0 +1,9 @@
+// Syntax: PlayAnimation EntityName ClipName Loop(1=Yes,0=No)
+PlayAnimation ../../Data/Levels/Friday/Meshes/door02.mesh open 1
+//PlayAnimation ../../Data/Levels/Friday/Meshes/stick01.mesh switch 0
+
+// Syntax: DisableCollisionSection Filename
+DisableCollisionSection door02.obj
+
+// Play a sound from the door (not the exact position, but quite near)
+PlaySound WoodCreak -265.902405 -2.473115 -35.425999

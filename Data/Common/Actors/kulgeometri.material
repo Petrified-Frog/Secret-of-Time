@@ -1,0 +1,66 @@
+material sphere_mat
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+
+			diffuse 1 1 1 1
+			specular 0 0 0 1
+			emissive 0 0 0
+		}
+	}
+}
+material cube_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.049776 0.732 0.0575078 1
+			specular 0 0 0 1
+			emissive 0 0 0
+		}
+	}
+}
+material cylinder_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.5 0.379667 0 1
+			specular 0 0 0 1
+			emissive 0 0 0
+		}
+	}
+}
+material cone_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.401638 0.113 0.5 1
+			specular 0 0 0 1
+			emissive 0 0 0
+		}
+	}
+}
+material plane_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0.331067 0.319 0.5 1
+			specular 0 0 0 1
+			emissive 0 0 0
+		}
+	}
+}

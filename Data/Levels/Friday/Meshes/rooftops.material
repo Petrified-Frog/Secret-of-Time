@@ -1,0 +1,105 @@
+material rooftops_buildings_exit_mat : CommonShaderNmOcc
+{
+	set_texture_alias DiffuseMap rooftops_tex1.tga
+	set_texture_alias OcclusionMap rooftops_exit_occ.tga
+	set_texture_alias NormalMap rooftops_nm.tga
+	
+	technique
+	{
+		pass
+		{
+			specular 1.0 1.0 1.0 1.0  1
+		}
+	}
+
+}
+
+material rooftops_buildings_mat : CommonShaderNmOcc
+{
+	set_texture_alias DiffuseMap rooftops_tex1.tga
+	set_texture_alias OcclusionMap rooftops_occ.tga
+	set_texture_alias NormalMap rooftops_nm.tga
+	
+	technique
+	{
+		pass
+		{
+			specular 1.0 1.0 1.0 1.0  1
+		}
+	}
+
+}
+
+material rooftops_stonewall_mat
+{
+
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture robust_stonewall_of_the_money_redux.tga
+				tex_coord_set 0
+			}
+			texture_unit
+			{
+				texture rooftops_occ.tga
+				tex_coord_set 1
+
+			}
+		}
+	}
+
+}
+
+material rooftops_windows2_mat
+{
+
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture rooftopswindow_tex.tga
+			}
+
+		}
+	}
+
+}
+
+material rooftops_windows1_mat
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture tituter_tex.tga
+			}
+			texture_unit
+			{
+				texture station_roof_occ.tga
+			}
+		}
+	}
+
+}
+
+material rooftops_windows3_mat : CommonShader
+{
+	set_texture_alias DiffuseMap small_wooden_window.tga
+//	set_texture_alias OcclusionMap station_roof_occ.tga
+	
+	technique
+	{
+		pass
+		{
+			specular 1.0 1.0 1.0 1.0  50
+		}
+	}
+
+}

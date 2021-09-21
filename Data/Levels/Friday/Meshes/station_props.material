@@ -1,0 +1,102 @@
+material station_props_mat2
+{
+	technique
+	{
+		pass
+		{
+
+
+
+			texture_unit
+			{
+				texture Trainstation_props2.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material station_props_mat3
+{
+	technique
+	{
+		pass
+		{
+
+
+			texture_unit
+			{
+				texture Trainstation_props3.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material station_props_mat1
+{
+	technique
+	{
+		pass
+		{
+
+
+
+			texture_unit
+			{
+				texture Trainstation_props1.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material lamp_mat_test
+{
+	technique
+	{
+		pass
+		{
+
+
+			texture_unit
+			{
+				texture StreetProps.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material station_tracksign_mat
+{
+	technique
+	{
+		pass
+		{
+
+
+			texture_unit
+			{
+				texture station_tracksign.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

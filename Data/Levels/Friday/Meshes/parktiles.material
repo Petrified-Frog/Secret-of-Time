@@ -1,0 +1,31 @@
+material parktile_mat : CommonShaderNmOcc
+
+{
+	set_texture_alias DiffuseMap parktile_color.TGA
+	set_texture_alias OcclusionMap park_occ.tga
+	set_texture_alias NormalMap parktile_normal.TGA
+
+	technique
+	{
+		pass
+		{
+			specular 0.7 0.7 0.7 1.0  8
+		}
+	}
+}
+
+material parktile_winterland_mat : CommonShaderNmOcc
+
+{
+	set_texture_alias DiffuseMap parktile_color.TGA
+	set_texture_alias OcclusionMap Occlusion_Winterland.tga
+	set_texture_alias NormalMap parktile_normal.TGA
+
+	technique
+	{
+		pass
+		{
+			specular 0.7 0.7 0.7 1.0  8
+		}
+	}
+}

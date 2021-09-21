@@ -1,0 +1,28 @@
+material MenuBackground
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture MenuBackground.png
+			}
+		}
+	}
+}
+material MenuBackdrop
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture black.bmp
+			}
+		}
+	}
+}

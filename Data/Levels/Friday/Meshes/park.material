@@ -1,0 +1,147 @@
+material fountain_static_mat
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Fountain_T.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+
+material props_street
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture StreetProps.tga
+			}
+		}
+	}
+}
+material props_Brewery
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture BreweryProps.tga
+			}
+		}
+	}
+}
+material tree_mat
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture tree_T_512.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+	
+}
+material tree_alpha_mat
+{
+	technique
+	{
+		pass
+		{
+
+			alpha_rejection greater_equal 128
+			scene_blend alpha_blend
+			//depth_write off
+
+			texture_unit
+			{
+				texture tree_T_512.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+
+material park_mat : CommonShaderNmOcc
+{
+	set_texture_alias DiffuseMap park_texture_1024.tga
+	set_texture_alias NormalMap park_normal_1024.tga
+	set_texture_alias OcclusionMap park_occ.tga
+	
+	technique
+	{
+		pass
+		{
+			specular 0.7 0.7 0.7 1.0  8
+		}
+	}
+}
+
+material park_simple_mat
+{	
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture park_texture_1024.tga
+				tex_coord_set 0
+			}
+			texture_unit
+			{
+				texture park_occ.tga
+				tex_coord_set 1
+
+			}
+		}
+	}
+}
+material park_alpha_mat
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater_equal 128
+			scene_blend alpha_blend
+			//depth_write off
+
+			texture_unit
+			{
+				texture park_texture_1024.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+material Water02
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			//diffuse 1 1 1 0.7
+			alpha_rejection greater_equal 128
+			texture_unit
+			{
+				texture flow_alpha.tga
+				tex_coord_set 0
+				//scroll_anim 0.4 0
+
+			}
+			texture_unit
+			{
+				texture waterflow.tga
+				tex_coord_set 0
+				scroll_anim 0.4 0
+
+			}
+
+		}
+	}
+}
+material Water01
+{
+	technique
+	{
+		pass
+		{
+			lightning off
+			texture_unit
+               	{
+                  	texture watertop.TGA
+				tex_coord_set 0
+                	}
+
+			texture_unit
+			{
+				texture ripple3.TGA
+				tex_coord_set 1
+				scroll_anim 0.7 0
+
+			}
+		}
+	}
+}

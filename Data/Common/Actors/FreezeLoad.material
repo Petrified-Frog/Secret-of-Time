@@ -1,0 +1,46 @@
+material ClockBase
+{
+	technique
+	{
+		pass
+		{
+			
+			scene_blend alpha_blend
+			alpha_rejection greater_equal 1
+			texture_unit
+			{
+				texture freezeclock.png
+			}
+		}
+	}
+}
+material PointerMin
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater_equal 1
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture freezeclockMinute.png
+			}
+		}
+	}
+}
+material PointerHour
+{
+	technique
+	{
+		pass
+		{
+			alpha_rejection greater_equal 1
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture freezeclockHour.png
+			}
+		}
+	}
+}

@@ -1,0 +1,42 @@
+material stainedwindow_mat
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1 0.9
+			specular 1 1 1 15
+			scene_blend alpha_blend
+
+			texture_unit
+			{
+				texture stainedglass_color.TGA
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+		}
+	}
+}
+material paintwall_mat
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture paintwall_color.TGA
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+
+		}
+	}
+}

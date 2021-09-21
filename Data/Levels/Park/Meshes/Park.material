@@ -1,0 +1,13 @@
+material park/lambert1
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture RegionTexture.bmp
+			}
+		}
+	}
+}

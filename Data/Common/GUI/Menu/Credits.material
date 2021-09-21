@@ -1,0 +1,30 @@
+material CreditsMaterial
+{
+	technique
+	{
+		pass
+		{
+			//scene_blend alpha_blend
+			texture_unit
+			{
+				texture CreditsLayer3.png
+				scroll_anim 0 -0.01
+				scale 1 2
+			}
+			texture_unit
+			{
+				texture Credits.png
+				scroll_anim 0 -0.02
+				scale 1 2
+				colour_op alpha_blend
+			}
+			texture_unit
+			{
+				texture CreditsLayer2.png
+				scroll_anim 0 -0.05
+				scale 1 2
+				colour_op alpha_blend
+			}
+		}
+	}
+}

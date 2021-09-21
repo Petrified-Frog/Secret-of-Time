@@ -1,0 +1,36 @@
+material Hodges/hodges_mat
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture fatmanTexture.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material Hodges/hodgesclock_mat
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture hodgesclock_mat.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

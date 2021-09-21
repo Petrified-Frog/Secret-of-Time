@@ -1,0 +1,12 @@
+material VideoPlaybackMaterial
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+			}
+		}
+	}
+}

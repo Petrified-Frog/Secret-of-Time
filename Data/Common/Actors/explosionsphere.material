@@ -1,0 +1,41 @@
+material pressurewave
+{
+	technique
+	{
+		pass
+		{
+
+			cull_hardware none
+			cull_software none
+			diffuse 1 1 1 0.7
+			scene_blend add
+			depth_write off
+			lighting off
+			texture_unit
+			{
+				texture ripple1.tga
+				tex_coord_set 0
+				scroll_anim 0.2 0
+
+			}
+			texture_unit
+			{
+				texture ripple2.tga
+				tex_coord_set 0
+				scroll_anim 0 -1
+
+			}
+		}
+	}
+}
+
+material pressurewave2 : pressurewave
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0 0 0.2
+		}
+	}
+}

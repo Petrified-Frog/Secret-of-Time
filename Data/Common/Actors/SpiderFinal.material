@@ -1,0 +1,54 @@
+material spider_shell_mat : CommonShaderNm
+{
+	set_texture_alias DiffuseMap spider_shell_txt.tga
+	set_texture_alias NormalMap spider_shell_nm.tga
+	
+	technique
+	{
+		pass
+		{
+			cull_software none
+			cull_hardware none
+		}
+	}
+	
+	technique
+	{
+		pass
+		{
+			cull_software none
+			cull_hardware none
+		}
+	}
+}
+
+material spider_body_mat : CommonShaderNm
+{
+	set_texture_alias DiffuseMap spider_body_txt.tga
+	set_texture_alias NormalMap spider_body_nm.tga
+}
+
+material spider_koggs_mat
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			depth_write on
+			cull_software none
+			cull_hardware none
+			alpha_rejection greater_equal 128
+			texture_unit
+			{
+				texture spider_cogs_txt.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+

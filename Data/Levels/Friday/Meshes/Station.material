@@ -1,0 +1,73 @@
+material station_roof_mat
+{
+
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture station_roof_tex.tga
+				tex_coord_set 0
+			}
+			texture_unit
+			{
+				texture station_roof_occ.tga
+				tex_coord_set 1
+
+			}
+		}
+	}
+
+}
+material station_window_mat
+{
+	technique
+	{
+		pass
+		{
+			scene_blend modulate
+			alpha_rejection greater_equal 128
+			
+			diffuse 0 0 0
+			
+			texture_unit
+			{
+				texture glass.tga
+			}
+		}
+	}
+}
+
+material station_ground_mat : CommonShaderNmOcc
+{
+	set_texture_alias DiffuseMap station_ground_tex.tga
+	set_texture_alias NormalMap station_ground_nm.tga
+	set_texture_alias OcclusionMap station_ground_occ.tga
+
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1 1
+			specular 0.2 0.2 0.2 1  10
+			emissive 0 0 0 0
+		}
+	}
+}
+material station_corridor_mat : CommonShaderNmOcc
+{
+	set_texture_alias DiffuseMap station_corridor_tex.tga
+	set_texture_alias NormalMap station_corridor_nm.tga
+	set_texture_alias OcclusionMap station_corridor_occ.tga
+	
+	technique
+	{
+		pass
+		{
+			specular 0.2 0.2 0.2 1.0  30
+			//emissive 0.7 0.2 0.2
+		}
+	}
+
+}

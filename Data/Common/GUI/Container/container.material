@@ -1,0 +1,122 @@
+material PlayerGUITimerBarMaterial
+{
+	technique
+	{
+		pass
+		{
+			diffuse 1 0 0 1
+		}
+	}
+}
+material PlayerGUITimerMaterial
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture timezone_meter.png
+			}
+		}
+	}
+}
+material PlayerGUIHP0Material
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture HPmeter_empty.png
+			}
+		}
+	}
+}
+material PlayerGUIHP1Material
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture HPmeter_1.png
+			}
+		}
+	}
+}
+material PlayerGUIHP2Material
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture HPmeter_2.png
+			}
+		}
+	}
+}
+material PlayerGUIHP3Material
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture HPmeter_3.png
+			}
+		}
+	}
+}
+material PlayerGUIHP4Material
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture HPmeter_4.png
+			}
+		}
+	}
+}
+material PlayerGUIHP5Material
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture HPmeter_5.png
+			}
+		}
+	}
+}
+material PlayerGUIHP6Material
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture HPmeter_Full.png
+			}
+		}
+	}
+}

@@ -1,0 +1,83 @@
+material waithall_props_mat
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Waithall_props01.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material waithall_console_alpha_mat
+{
+	technique
+	{
+		pass
+		{
+
+			scene_blend alpha_blend
+			depth_write off
+			alpha_rejection greater_equal 128
+			texture_unit
+			{
+				texture Waithall_Consoles.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material waithall_console_mat
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Waithall_Consoles.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material waithall_props_alpha_mat
+{
+	technique
+	{
+		pass
+		{
+
+			scene_blend alpha_blend
+			depth_write off
+			alpha_rejection greater_equal 128
+
+			texture_unit
+			{
+				texture Waithall_props01.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

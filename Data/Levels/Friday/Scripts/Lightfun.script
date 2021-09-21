@@ -1,0 +1,405 @@
+SetAmbientLight 0.84 0.84 0.84
+sleep 0.1
+SetAmbientLight 0.8376 0.8376 0.8376
+sleep 0.1
+SetAmbientLight 0.8352 0.8352 0.8352
+sleep 0.1
+SetAmbientLight 0.8328 0.8328 0.8328
+sleep 0.1
+SetAmbientLight 0.8304 0.8304 0.8304
+sleep 0.1
+SetAmbientLight 0.828 0.828 0.828
+sleep 0.1
+SetAmbientLight 0.8256 0.8256 0.8256
+sleep 0.1
+SetAmbientLight 0.8232 0.8232 0.8232
+sleep 0.1
+SetAmbientLight 0.8208 0.8208 0.8208
+sleep 0.1
+SetAmbientLight 0.8184 0.8184 0.8184
+sleep 0.1
+SetAmbientLight 0.816 0.816 0.816
+sleep 0.1
+SetAmbientLight 0.8136 0.8136 0.8136
+sleep 0.1
+SetAmbientLight 0.8112 0.8112 0.8112
+sleep 0.1
+SetAmbientLight 0.8088 0.8088 0.8088
+sleep 0.1
+SetAmbientLight 0.8064 0.8064 0.8064
+sleep 0.1
+SetAmbientLight 0.804 0.804 0.804
+sleep 0.1
+SetAmbientLight 0.8016 0.8016 0.8016
+sleep 0.1
+SetAmbientLight 0.7992 0.7992 0.7992
+sleep 0.1
+SetAmbientLight 0.7968 0.7968 0.7968
+sleep 0.1
+SetAmbientLight 0.7944 0.7944 0.7944
+sleep 0.1
+SetAmbientLight 0.792 0.792 0.792
+sleep 0.1
+SetAmbientLight 0.7896 0.7896 0.7896
+sleep 0.1
+SetAmbientLight 0.7872 0.7872 0.7872
+sleep 0.1
+SetAmbientLight 0.7848 0.7848 0.7848
+sleep 0.1
+SetAmbientLight 0.7824 0.7824 0.7824
+sleep 0.1
+SetAmbientLight 0.78 0.78 0.78
+sleep 0.1
+SetAmbientLight 0.7776 0.7776 0.7776
+sleep 0.1
+SetAmbientLight 0.7752 0.7752 0.7752
+sleep 0.1
+SetAmbientLight 0.7728 0.7728 0.7728
+sleep 0.1
+SetAmbientLight 0.7704 0.7704 0.7704
+sleep 0.1
+SetAmbientLight 0.768 0.768 0.768
+sleep 0.1
+SetAmbientLight 0.7656 0.7656 0.7656
+sleep 0.1
+SetAmbientLight 0.7632 0.7632 0.7632
+sleep 0.1
+SetAmbientLight 0.7608 0.7608 0.7608
+sleep 0.1
+SetAmbientLight 0.7584 0.7584 0.7584
+sleep 0.1
+SetAmbientLight 0.756 0.756 0.756
+sleep 0.1
+SetAmbientLight 0.7536 0.7536 0.7536
+sleep 0.1
+SetAmbientLight 0.7512 0.7512 0.7512
+sleep 0.1
+SetAmbientLight 0.7488 0.7488 0.7488
+sleep 0.1
+SetAmbientLight 0.7464 0.7464 0.7464
+sleep 0.1
+SetAmbientLight 0.744 0.744 0.744
+sleep 0.1
+SetAmbientLight 0.7416 0.7416 0.7416
+sleep 0.1
+SetAmbientLight 0.7392 0.7392 0.7392
+sleep 0.1
+SetAmbientLight 0.7368 0.7368 0.7368
+sleep 0.1
+SetAmbientLight 0.7344 0.7344 0.7344
+sleep 0.1
+SetAmbientLight 0.732 0.732 0.732
+sleep 0.1
+SetAmbientLight 0.7296 0.7296 0.7296
+sleep 0.1
+SetAmbientLight 0.7272 0.7272 0.7272
+sleep 0.1
+SetAmbientLight 0.7248 0.7248 0.7248
+sleep 0.1
+SetAmbientLight 0.7224 0.7224 0.7224
+sleep 0.1
+SetAmbientLight 0.72 0.72 0.72
+sleep 0.1
+SetAmbientLight 0.7176 0.7176 0.7176
+sleep 0.1
+SetAmbientLight 0.7152 0.7152 0.7152
+sleep 0.1
+SetAmbientLight 0.7128 0.7128 0.7128
+sleep 0.1
+SetAmbientLight 0.7104 0.7104 0.7104
+sleep 0.1
+SetAmbientLight 0.708 0.708 0.708
+sleep 0.1
+SetAmbientLight 0.7056 0.7056 0.7056
+sleep 0.1
+SetAmbientLight 0.7032 0.7032 0.7032
+sleep 0.1
+SetAmbientLight 0.7008 0.7008 0.7008
+sleep 0.1
+SetAmbientLight 0.6984 0.6984 0.6984
+sleep 0.1
+SetAmbientLight 0.696 0.696 0.696
+sleep 0.1
+SetAmbientLight 0.6936 0.6936 0.6936
+sleep 0.1
+SetAmbientLight 0.6912 0.6912 0.6912
+sleep 0.1
+SetAmbientLight 0.6888 0.6888 0.6888
+sleep 0.1
+SetAmbientLight 0.6864 0.6864 0.6864
+sleep 0.1
+SetAmbientLight 0.684 0.684 0.684
+sleep 0.1
+SetAmbientLight 0.6816 0.6816 0.6816
+sleep 0.1
+SetAmbientLight 0.6792 0.6792 0.6792
+sleep 0.1
+SetAmbientLight 0.6768 0.6768 0.6768
+sleep 0.1
+SetAmbientLight 0.6744 0.6744 0.6744
+sleep 0.1
+SetAmbientLight 0.672 0.672 0.672
+sleep 0.1
+SetAmbientLight 0.6696 0.6696 0.6696
+sleep 0.1
+SetAmbientLight 0.6672 0.6672 0.6672
+sleep 0.1
+SetAmbientLight 0.6648 0.6648 0.6648
+sleep 0.1
+SetAmbientLight 0.6624 0.6624 0.6624
+sleep 0.1
+SetAmbientLight 0.66 0.66 0.66
+sleep 0.1
+SetAmbientLight 0.6576 0.6576 0.6576
+sleep 0.1
+SetAmbientLight 0.6552 0.6552 0.6552
+sleep 0.1
+SetAmbientLight 0.6528 0.6528 0.6528
+sleep 0.1
+SetAmbientLight 0.6504 0.6504 0.6504
+sleep 0.1
+SetAmbientLight 0.648 0.648 0.648
+sleep 0.1
+SetAmbientLight 0.6456 0.6456 0.6456
+sleep 0.1
+SetAmbientLight 0.6432 0.6432 0.6432
+sleep 0.1
+SetAmbientLight 0.6408 0.6408 0.6408
+sleep 0.1
+SetAmbientLight 0.6384 0.6384 0.6384
+sleep 0.1
+SetAmbientLight 0.636 0.636 0.636
+sleep 0.1
+SetAmbientLight 0.6336 0.6336 0.6336
+sleep 0.1
+SetAmbientLight 0.6312 0.6312 0.6312
+sleep 0.1
+SetAmbientLight 0.6288 0.6288 0.6288
+sleep 0.1
+SetAmbientLight 0.6264 0.6264 0.6264
+sleep 0.1
+SetAmbientLight 0.624 0.624 0.624
+sleep 0.1
+SetAmbientLight 0.6216 0.6216 0.6216
+sleep 0.1
+SetAmbientLight 0.6192 0.6192 0.6192
+sleep 0.1
+SetAmbientLight 0.6168 0.6168 0.6168
+sleep 0.1
+SetAmbientLight 0.6144 0.6144 0.6144
+sleep 0.1
+SetAmbientLight 0.612 0.612 0.612
+sleep 0.1
+SetAmbientLight 0.6096 0.6096 0.6096
+sleep 0.1
+SetAmbientLight 0.6072 0.6072 0.6072
+sleep 0.1
+SetAmbientLight 0.6048 0.6048 0.6048
+sleep 0.1
+SetAmbientLight 0.6024 0.6024 0.6024
+sleep 0.1
+SetAmbientLight 0.6 0.6 0.6
+sleep 0.1
+SetAmbientLight 0.5976 0.5976 0.5976
+sleep 0.1
+SetAmbientLight 0.6 0.6 0.6
+sleep 0.1
+SetAmbientLight 0.6024 0.6024 0.6024
+sleep 0.1
+SetAmbientLight 0.6048 0.6048 0.6048
+sleep 0.1
+SetAmbientLight 0.6072 0.6072 0.6072
+sleep 0.1
+SetAmbientLight 0.6096 0.6096 0.6096
+sleep 0.1
+SetAmbientLight 0.612 0.612 0.612
+sleep 0.1
+SetAmbientLight 0.6144 0.6144 0.6144
+sleep 0.1
+SetAmbientLight 0.6168 0.6168 0.6168
+sleep 0.1
+SetAmbientLight 0.6192 0.6192 0.6192
+sleep 0.1
+SetAmbientLight 0.6216 0.6216 0.6216
+sleep 0.1
+SetAmbientLight 0.624 0.624 0.624
+sleep 0.1
+SetAmbientLight 0.6264 0.6264 0.6264
+sleep 0.1
+SetAmbientLight 0.6288 0.6288 0.6288
+sleep 0.1
+SetAmbientLight 0.6312 0.6312 0.6312
+sleep 0.1
+SetAmbientLight 0.6336 0.6336 0.6336
+sleep 0.1
+SetAmbientLight 0.636 0.636 0.636
+sleep 0.1
+SetAmbientLight 0.6384 0.6384 0.6384
+sleep 0.1
+SetAmbientLight 0.6408 0.6408 0.6408
+sleep 0.1
+SetAmbientLight 0.6432 0.6432 0.6432
+sleep 0.1
+SetAmbientLight 0.6456 0.6456 0.6456
+sleep 0.1
+SetAmbientLight 0.648 0.648 0.648
+sleep 0.1
+SetAmbientLight 0.6504 0.6504 0.6504
+sleep 0.1
+SetAmbientLight 0.6528 0.6528 0.6528
+sleep 0.1
+SetAmbientLight 0.6552 0.6552 0.6552
+sleep 0.1
+SetAmbientLight 0.6576 0.6576 0.6576
+sleep 0.1
+SetAmbientLight 0.66 0.66 0.66
+sleep 0.1
+SetAmbientLight 0.6624 0.6624 0.6624
+sleep 0.1
+SetAmbientLight 0.6648 0.6648 0.6648
+sleep 0.1
+SetAmbientLight 0.6672 0.6672 0.6672
+sleep 0.1
+SetAmbientLight 0.6696 0.6696 0.6696
+sleep 0.1
+SetAmbientLight 0.672 0.672 0.672
+sleep 0.1
+SetAmbientLight 0.6744 0.6744 0.6744
+sleep 0.1
+SetAmbientLight 0.6768 0.6768 0.6768
+sleep 0.1
+SetAmbientLight 0.6792 0.6792 0.6792
+sleep 0.1
+SetAmbientLight 0.6816 0.6816 0.6816
+sleep 0.1
+SetAmbientLight 0.684 0.684 0.684
+sleep 0.1
+SetAmbientLight 0.6864 0.6864 0.6864
+sleep 0.1
+SetAmbientLight 0.6888 0.6888 0.6888
+sleep 0.1
+SetAmbientLight 0.6912 0.6912 0.6912
+sleep 0.1
+SetAmbientLight 0.6936 0.6936 0.6936
+sleep 0.1
+SetAmbientLight 0.696 0.696 0.696
+sleep 0.1
+SetAmbientLight 0.6984 0.6984 0.6984
+sleep 0.1
+SetAmbientLight 0.7008 0.7008 0.7008
+sleep 0.1
+SetAmbientLight 0.7032 0.7032 0.7032
+sleep 0.1
+SetAmbientLight 0.7056 0.7056 0.7056
+sleep 0.1
+SetAmbientLight 0.708 0.708 0.708
+sleep 0.1
+SetAmbientLight 0.7104 0.7104 0.7104
+sleep 0.1
+SetAmbientLight 0.7128 0.7128 0.7128
+sleep 0.1
+SetAmbientLight 0.7152 0.7152 0.7152
+sleep 0.1
+SetAmbientLight 0.7176 0.7176 0.7176
+sleep 0.1
+SetAmbientLight 0.72 0.72 0.72
+sleep 0.1
+SetAmbientLight 0.7224 0.7224 0.7224
+sleep 0.1
+SetAmbientLight 0.7248 0.7248 0.7248
+sleep 0.1
+SetAmbientLight 0.7272 0.7272 0.7272
+sleep 0.1
+SetAmbientLight 0.7296 0.7296 0.7296
+sleep 0.1
+SetAmbientLight 0.732 0.732 0.732
+sleep 0.1
+SetAmbientLight 0.7344 0.7344 0.7344
+sleep 0.1
+SetAmbientLight 0.7368 0.7368 0.7368
+sleep 0.1
+SetAmbientLight 0.7392 0.7392 0.7392
+sleep 0.1
+SetAmbientLight 0.7416 0.7416 0.7416
+sleep 0.1
+SetAmbientLight 0.744 0.744 0.744
+sleep 0.1
+SetAmbientLight 0.7464 0.7464 0.7464
+sleep 0.1
+SetAmbientLight 0.7488 0.7488 0.7488
+sleep 0.1
+SetAmbientLight 0.7512 0.7512 0.7512
+sleep 0.1
+SetAmbientLight 0.7536 0.7536 0.7536
+sleep 0.1
+SetAmbientLight 0.756 0.756 0.756
+sleep 0.1
+SetAmbientLight 0.7584 0.7584 0.7584
+sleep 0.1
+SetAmbientLight 0.7608 0.7608 0.7608
+sleep 0.1
+SetAmbientLight 0.7632 0.7632 0.7632
+sleep 0.1
+SetAmbientLight 0.7656 0.7656 0.7656
+sleep 0.1
+SetAmbientLight 0.768 0.768 0.768
+sleep 0.1
+SetAmbientLight 0.7704 0.7704 0.7704
+sleep 0.1
+SetAmbientLight 0.7728 0.7728 0.7728
+sleep 0.1
+SetAmbientLight 0.7752 0.7752 0.7752
+sleep 0.1
+SetAmbientLight 0.7776 0.7776 0.7776
+sleep 0.1
+SetAmbientLight 0.78 0.78 0.78
+sleep 0.1
+SetAmbientLight 0.7824 0.7824 0.7824
+sleep 0.1
+SetAmbientLight 0.7848 0.7848 0.7848
+sleep 0.1
+SetAmbientLight 0.7872 0.7872 0.7872
+sleep 0.1
+SetAmbientLight 0.7896 0.7896 0.7896
+sleep 0.1
+SetAmbientLight 0.792 0.792 0.792
+sleep 0.1
+SetAmbientLight 0.7944 0.7944 0.7944
+sleep 0.1
+SetAmbientLight 0.7968 0.7968 0.7968
+sleep 0.1
+SetAmbientLight 0.7992 0.7992 0.7992
+sleep 0.1
+SetAmbientLight 0.8016 0.8016 0.8016
+sleep 0.1
+SetAmbientLight 0.804 0.804 0.804
+sleep 0.1
+SetAmbientLight 0.8064 0.8064 0.8064
+sleep 0.1
+SetAmbientLight 0.8088 0.8088 0.8088
+sleep 0.1
+SetAmbientLight 0.8112 0.8112 0.8112
+sleep 0.1
+SetAmbientLight 0.8136 0.8136 0.8136
+sleep 0.1
+SetAmbientLight 0.816 0.816 0.816
+sleep 0.1
+SetAmbientLight 0.8184 0.8184 0.8184
+sleep 0.1
+SetAmbientLight 0.8208 0.8208 0.8208
+sleep 0.1
+SetAmbientLight 0.8232 0.8232 0.8232
+sleep 0.1
+SetAmbientLight 0.8256 0.8256 0.8256
+sleep 0.1
+SetAmbientLight 0.828 0.828 0.828
+sleep 0.1
+SetAmbientLight 0.8304 0.8304 0.8304
+sleep 0.1
+SetAmbientLight 0.8328 0.8328 0.8328
+sleep 0.1
+SetAmbientLight 0.8352 0.8352 0.8352
+sleep 0.1
+SetAmbientLight 0.8376 0.8376 0.8376
+sleep 0.1
+restart

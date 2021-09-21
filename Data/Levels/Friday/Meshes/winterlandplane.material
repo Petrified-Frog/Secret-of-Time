@@ -1,0 +1,31 @@
+material q
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			//scene_blend add
+			scene_blend colour_blend
+			cull_hardware none
+			cull_software none
+
+			depth_write off
+
+			texture_unit
+			{
+				texture winterplanecloud_0.png
+				//scroll_anim 0.5 0.2
+				wave_xform scroll_x sine 1 0.8 90 0.02
+				wave_xform scroll_y sine 1 0.8 0 0.02
+			}
+			
+			//texture_unit
+			//{
+				//colour_op modulate
+				//texture winterplanecloud_1.png
+				//wave_xform scroll_y sine 1 0.4 0 0.02
+			//}
+		}
+	}
+}

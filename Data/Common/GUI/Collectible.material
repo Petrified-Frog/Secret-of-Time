@@ -1,0 +1,14 @@
+material CollectibleMaterial
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture collectiblegui.png
+			}
+		}
+	}
+}

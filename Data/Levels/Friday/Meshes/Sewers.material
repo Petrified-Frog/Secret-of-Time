@@ -1,0 +1,112 @@
+material sewer_mat : CommonShaderNmOcc
+{
+	set_texture_alias DiffuseMap sewer_map_color.tga
+	set_texture_alias OcclusionMap sewers_occ.tga
+	set_texture_alias NormalMap sewer_map_normal.tga
+
+	technique
+	{
+		pass
+		{
+			specular 0.3 0.2 0.2 1.0  8
+		}
+	}
+
+}
+material LVL_sewers_lamp_mat_test
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture StreetProps.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material sewer_props
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture sewer_props_color.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material LVL_sewers_station_tracksign_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 1 1 1 1
+			specular 0 0 0 1
+			emissive 0 0 0
+
+			texture_unit
+			{
+				texture station_tracksign.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material LVL_sewers_rooftops_mat
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture rooftops_T_1024.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material LVL_sewers_props_Brewery
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture BreweryProps.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+
+
+// Create player, set position
+//CreateEntity Player Player -6.128 3.428 28.347
+
+
+// Create main collision element
+CreateCollisionElement Base.obj
+
+
+// Set up lighting
+SetAmbientLight 0.9 0.9 0.9
+
+ExecuteScript Regions.script
+ExecuteScript Lights.script

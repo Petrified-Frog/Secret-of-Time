@@ -1,0 +1,148 @@
+material WinterBorder_mat : CommonShaderNmOcc
+{
+	set_texture_alias DiffuseMap WinterBorder_Colour.tga
+	set_texture_alias OcclusionMap Occlusion_Winterland.tga
+	set_texture_alias NormalMap WinterBorder_Normal.tga
+
+
+	technique
+	{
+		pass
+		{
+			specular 1.0 1.0 1.0 1.0  2
+		}
+	}
+}
+material Snow_Mat : CommonShaderOcc
+{
+	set_texture_alias DiffuseMap SnowTexture.tga
+	set_texture_alias OcclusionMap Occlusion_Winterland.tga
+
+	technique
+	{
+		pass
+		{
+			specular 1.0 1.0 1.0 1.0  2
+		}
+	}
+}
+
+material wl_StreetProps_mat
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture StreetProps.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material Ice_mat
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Ice.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+
+material Winterarea_consoles
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{
+				texture Winter_consoles.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+			texture_unit
+			{
+				texture Occlusion_Winterland.tga
+				tex_coord_set 1
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+
+material Winterland_Mat : CommonShaderNmOcc
+{
+	set_texture_alias DiffuseMap Winterland_Colour.tga
+	set_texture_alias OcclusionMap Occlusion_Winterland.tga
+	set_texture_alias NormalMap Winterland_Normal.tga
+
+	technique
+	{
+		pass
+		{
+			specular 1.0 1.0 1.0 1.0  2
+		}
+	}
+}
+material wl_BreweryProps
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture BreweryProps.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material Winter_Fountain1
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Fountain_Winter256.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

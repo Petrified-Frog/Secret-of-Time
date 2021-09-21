@@ -1,0 +1,46 @@
+
+dustmotes
+{
+	quota	50
+	material	dustmotes
+	particle_width	0.03
+	particle_height	0.03
+	cull_each	false
+	renderer	billboard
+	sorted	false
+	local_space	false
+	iteration_interval	0
+	nonvisible_update_timeout	0
+	billboard_type	point
+	billboard_origin	center
+	billboard_rotation_type	texcoord
+	common_up_vector	0 1 0
+	point_rendering	false
+	accurate_facing	false
+
+	emitter Box
+	{
+		angle	0
+		colour	1 1 1 1
+		colour_range_start	1 1 1 1
+		colour_range_end	1 1 1 1
+		direction	1 0 1
+		emission_rate	30
+		position	0 0 0
+		velocity	0.1
+		velocity_min	0.1
+		velocity_max	0.1
+		time_to_live	2
+		time_to_live_min	2
+		time_to_live_max	2
+		duration	0
+		duration_min	0
+		duration_max	0
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+		width	3
+		height	3
+		depth	3
+	}
+}

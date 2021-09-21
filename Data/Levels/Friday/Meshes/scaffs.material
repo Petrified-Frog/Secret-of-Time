@@ -1,0 +1,20 @@
+material rooftops_mat
+{
+	technique
+	{
+		pass
+		{
+
+
+			texture_unit
+			{
+				texture rooftops_T_1024.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

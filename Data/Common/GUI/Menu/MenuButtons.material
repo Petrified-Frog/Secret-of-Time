@@ -1,0 +1,168 @@
+material ContinueUp
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture continue_upp.png
+			}
+		}
+	}
+}
+material ContinueOver
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture continue_over.png
+			}
+		}
+	}
+}
+material ContinueDown
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture continue_down.png
+			}
+		}
+	}
+}
+material NewGameUp
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture newgame_upp.png
+			}
+		}
+	}
+}
+material NewGameOver
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture newgame_over.png
+			}
+		}
+	}
+}
+material NewGameDown
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture newgame_down.png
+			}
+		}
+	}
+}
+material CreditsUp
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture credits_upp.png
+			}
+		}
+	}
+}
+material CreditsOver
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture credits_over.png
+			}
+		}
+	}
+}
+material CreditsDown
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture credits_down.png
+			}
+		}
+	}
+}
+material QuitUp
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture quit_upp.png
+			}
+		}
+	}
+}
+material QuitOver
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture quit_over.png
+			}
+		}
+	}
+}
+material QuitDown
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture quit_down.png
+			}
+		}
+	}
+}

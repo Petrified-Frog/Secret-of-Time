@@ -1,0 +1,45 @@
+material Bomberbee/Wings
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			
+			depth_write off
+
+			cull_software none
+			cull_hardware none
+
+			texture_unit
+			{
+				texture Bomberbee.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material Bomberbee/Bomberbee_Mat
+{
+	technique
+	{
+		pass
+		{
+			
+
+			texture_unit
+			{
+				texture Bomberbee.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

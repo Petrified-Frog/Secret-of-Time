@@ -1,0 +1,19 @@
+material Fusebox_Cable
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture CableTexture.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

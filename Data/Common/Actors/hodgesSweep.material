@@ -1,0 +1,14 @@
+material hodgessweep
+{
+	technique
+	{
+		pass
+		{
+			
+			texture_unit
+			{
+				texture HodgesSweep.png
+			}
+		}
+	}
+}

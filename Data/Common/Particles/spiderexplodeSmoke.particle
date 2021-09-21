@@ -1,0 +1,59 @@
+spiderexplodeSmoke
+{
+	quota	200
+	material	bomberBeeSmoke
+	particle_width	1
+	particle_height	1
+	cull_each	true
+	renderer	billboard
+	sorted	true
+	local_space	false
+	billboard_type	point
+	billboard_origin	center
+	billboard_rotation_type	vertex
+	common_up_vector	0 1 0
+	point_rendering	false
+	accurate_facing	false
+
+
+	emitter Ring
+	{
+		angle	360
+		colour	1 1 1 1
+		colour_range_start	1 1 1 1
+		colour_range_end	1 1 1 1
+		direction	1 1 1
+		emission_rate	200
+		position	0 0 0
+		velocity	3
+		velocity_min	3
+		velocity_max	3
+		time_to_live	0.3
+		time_to_live_min	0.3
+		time_to_live_max	0.4
+		duration	0
+		duration_min	0
+		duration_max	0
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0		
+		width	0.04
+		height	0.04
+		depth	0.04
+		inner_width	0.01
+		inner_height	0.01
+	}
+	
+	
+
+	affector Rotator
+   	{
+        	rotation_range_start  		0
+        	rotation_range_end   	 	360
+        	rotation_speed_range_start  	-60
+        	rotation_speed_range_end    	200
+   	}
+
+
+}
+

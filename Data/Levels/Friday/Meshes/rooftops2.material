@@ -1,0 +1,84 @@
+material WoodenWindow
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture small_wooden_window.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material StreetTexture : CommonShaderNmOcc
+{
+
+	set_texture_alias DiffuseMap Streets_Texture_martin_color.tga
+	set_texture_alias OcclusionMap rooftops2_occ.tga
+	set_texture_alias NormalMap Streets_Texture_martin_normal.tga
+
+	technique
+	{
+		pass
+		{
+			specular 1.0 1.0 1.0 1.0  1
+		}
+	}
+}
+material WoodenDoor
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture small_wooden_door.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+
+material Industry_mat : CommonShaderNmOcc
+{
+
+	set_texture_alias DiffuseMap industry_color.TGA
+	set_texture_alias OcclusionMap rooftops2_occ.tga
+	set_texture_alias NormalMap industry_normal.TGA
+
+	technique
+	{
+		pass
+		{
+			specular 1.0 1.0 1.0 1.0  1
+		}
+	}
+}
+material RooftopGroundTex : CommonShaderNmOcc
+{
+
+	set_texture_alias DiffuseMap RooftopsGroundTex_color.tga
+	set_texture_alias OcclusionMap rooftops2_occ.tga
+	set_texture_alias NormalMap RooftopsGroundTex_normal.tga
+
+	technique
+	{
+		pass
+		{
+			specular 1.0 1.0 1.0 1.0  1
+		}
+	}
+}

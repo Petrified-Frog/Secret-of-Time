@@ -1,0 +1,19 @@
+
+material bomberBeeFire
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend src_alpha one
+			depth_write off
+
+			texture_unit
+			{
+				texture fireflies.png
+				tex_address_mode clamp
+			}
+		}
+	}
+}

@@ -1,0 +1,12 @@
+material key_mat
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.866 0.77769 0.232954 1
+			specular 0.5 0.5 0.5 20
+			emissive 0 0 0
+		}
+	}
+}

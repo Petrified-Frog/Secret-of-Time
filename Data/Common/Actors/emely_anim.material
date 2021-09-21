@@ -1,0 +1,41 @@
+material emily_mat : CommonShader
+{
+	set_texture_alias DiffuseMap emely_color01.tga
+	//set_texture_alias NormalMap emely_normal01.tga
+	
+	technique
+	{
+		pass
+		{
+			diffuse 1 1 1
+			specular 0.1 0.1 0.1 8
+			emissive 0 0 0
+			
+			//texture_unit
+			//{
+			//	texture emely_color01.tga
+			//}
+		}
+	}
+}
+
+material timestick_mat
+{
+	
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture timestick_color.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

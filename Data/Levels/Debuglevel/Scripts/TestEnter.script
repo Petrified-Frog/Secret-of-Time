@@ -1,0 +1,7 @@
+PlaySound ../../Data/Common/Sfx/Basedrop.wav  -43.864 3.945 28.644
+
+// Create a spider
+CreateEntity Auto Spider -43.864 3.945 58.644 0
+CreateEntity Auto BomberBee -25.864 7.945 3.644
+CreateEntity Auto Turret -55.864 3.945 3.644
+SetCameraShakiness 0.5

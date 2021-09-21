@@ -1,0 +1,45 @@
+
+material Turret/Turretlamp_mat1
+{
+	technique
+	{
+		pass
+		{
+
+			specular 0.5 0.5 0.5 3.33333
+
+
+			texture_unit
+			{
+				texture Turretlamp_matCOLOUR.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material Barrelturret_mat
+{
+	technique
+	{
+		pass
+		{
+
+			specular 0.5 0.5 0.5 3.33333
+
+
+			texture_unit
+			{
+				texture Barrelturret_COLOUR.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

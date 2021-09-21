@@ -1,0 +1,220 @@
+vertex_program CommonVertexProgram cg
+{
+	source Lighting.cg
+	entry_point CommonVertexProgram
+	profiles vp40 vs_1_1 arbvp1
+	//profiles ps_4_0 ps_3_0
+	//profiles vp30 vs_2_x vs_1_4 arbvp1
+	//profiles arbvp1
+	
+	default_params
+	{
+		param_named_auto WorldViewProj worldviewproj_matrix
+	}
+}
+
+fragment_program CommonFragmentProgram cg
+{
+	source Lighting.cg
+	entry_point CommonFragmentProgram
+	profiles fp40 fp30 ps_2_x ps_1_4 arbfp1 fp20
+	//profiles ps_4_0 ps_3_0
+	//profiles fp30 ps_2_x ps_1_4 arbfp1 fp20
+	//profiles arbfp1
+
+	default_params
+	{	
+		/////////// MISC //////////////////////////////
+		param_named_auto CameraPosition camera_position_object_space
+		param_named_auto WorldI inverse_world_matrix
+		param_named_auto AmbientLight ambient_light_colour
+
+		/////////// MATERIAL //////////////////////////////
+		param_named_auto Material.Diffuse surface_diffuse_colour
+		param_named_auto Material.Emissive surface_emissive_colour
+		param_named_auto Material.Specular surface_specular_colour
+		param_named_auto Material.Shininess surface_shininess
+
+		/////////// LIGHTS //////////////////////////////
+		param_named_auto LightPosition0 light_position_object_space 0
+		param_named_auto LightDirection0 light_direction 0
+		param_named_auto LightDiffuse0 light_diffuse_colour 0
+		param_named_auto LightSpecular0 light_specular_colour 0
+		param_named_auto LightAttenuation0 light_attenuation 0
+		param_named_auto SpotlightParameters0 spotlight_params 0
+		
+		param_named_auto LightPosition1 light_position_object_space 1
+		param_named_auto LightDirection1 light_direction 1
+		param_named_auto LightDiffuse1 light_diffuse_colour 1
+		param_named_auto LightSpecular1 light_specular_colour 1
+		param_named_auto LightAttenuation1 light_attenuation 1
+		param_named_auto SpotlightParameters1 spotlight_params 1
+		
+		param_named_auto LightPosition2 light_position_object_space 2
+		param_named_auto LightDirection2 light_direction 2
+		param_named_auto LightDiffuse2 light_diffuse_colour 2
+		param_named_auto LightSpecular2 light_specular_colour 2
+		param_named_auto LightAttenuation2 light_attenuation 2
+		param_named_auto SpotlightParameters2 spotlight_params 2
+		
+		param_named_auto LightPosition3 light_position_object_space 3
+		param_named_auto LightDirection3 light_direction 3
+		param_named_auto LightDiffuse3 light_diffuse_colour 3
+		param_named_auto LightSpecular3 light_specular_colour 3
+		param_named_auto LightAttenuation3 light_attenuation 3
+		param_named_auto SpotlightParameters3 spotlight_params 3
+				
+		/////////// SHADER SETTINGS //////////////////////////////
+		param_named UseNormalMap float 0.0
+		param_named UseOcclusionMap float 0.0
+	}
+}
+
+material CommonShader
+{
+	lod_distances 90
+
+	technique HQ
+	{
+		lod_index 0
+		
+		pass
+		{
+			diffuse 1 1 1 1
+			specular 1 1 1 1  1000
+			emissive 0 0 0
+
+			vertex_program_ref CommonVertexProgram
+			{
+			}
+
+			fragment_program_ref CommonFragmentProgram
+			{
+			}
+
+			texture_unit NormalMap
+			{
+				texture NMBumpsOut.png
+			}
+			
+			texture_unit DiffuseMap
+			{
+				texture Dots.bmp
+				//filtering anisotropic
+				//max_anisotropy 8
+				filtering trilinear
+			}
+			
+			texture_unit OcclusionMap
+			{
+				texture Dots.bmp
+			}
+		}
+	}
+
+	technique LQ
+	{
+		lod_index 1
+		
+		pass
+		{
+			diffuse 1 1 1 1
+			specular 1 1 1 1  1000
+			emissive 0 0 0
+			
+			texture_unit DiffuseMap
+			{
+				texture Dots.bmp
+				//filtering anisotropic
+				//max_anisotropy 8
+				filtering trilinear
+			}
+			
+			texture_unit OcclusionMap
+			{
+				colour_op modulate
+				texture Dots.bmp
+				tex_coord_set 1
+			}
+
+		}
+	}
+
+}
+
+// TODO: Remove this material, it is deprecated
+material FragmentLighting : CommonShader
+{
+	technique HQ
+	{
+		pass
+		{
+			vertex_program_ref CommonVertexProgram
+			{
+			}
+
+			fragment_program_ref CommonFragmentProgram
+			{
+				param_named UseNormalMap float 1
+				param_named UseOcclusionMap float 1
+			}
+		}
+	}
+}
+
+material CommonShaderOcc : CommonShader
+{
+	technique HQ
+	{
+		pass
+		{
+			vertex_program_ref CommonVertexProgram
+			{
+			}
+
+			fragment_program_ref CommonFragmentProgram
+			{
+				param_named UseNormalMap float 0
+				param_named UseOcclusionMap float 1
+			}
+		}
+	}
+}
+
+material CommonShaderNmOcc : CommonShader
+{
+	technique HQ
+	{
+		pass
+		{
+			vertex_program_ref CommonVertexProgram
+			{
+			}
+
+			fragment_program_ref CommonFragmentProgram
+			{
+				param_named UseNormalMap float 1
+				param_named UseOcclusionMap float 1
+			}
+		}
+	}
+}
+
+material CommonShaderNm : CommonShader
+{
+	technique HQ
+	{
+		pass
+		{
+			vertex_program_ref CommonVertexProgram
+			{
+			}
+
+			fragment_program_ref CommonFragmentProgram
+			{
+				param_named UseNormalMap float 1
+				param_named UseOcclusionMap float 0
+			}
+		}
+	}
+}

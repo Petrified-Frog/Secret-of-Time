@@ -1,0 +1,16 @@
+material Industry_area_mat : CommonShaderNmOcc
+
+{
+
+	set_texture_alias DiffuseMap industry_color.TGA
+	set_texture_alias OcclusionMap industry_occ.TGA
+	set_texture_alias NormalMap industry_normal.TGA
+
+	technique
+	{
+		pass
+		{
+			specular 0.3 0.2 0.2 1.0  8
+		}
+	}
+}

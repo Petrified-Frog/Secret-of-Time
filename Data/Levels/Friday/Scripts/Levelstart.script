@@ -1,0 +1,17 @@
+LoadNavigationMesh park_nav.obj
+
+// Create main collision element
+CreateCollisionElement Base.obj
+
+//CreateCollisionElement door01.obj
+CreateCollisionElement door02.obj
+
+
+
+// Set up lighting
+//SetAmbientLight 0.6 0.6 0.5
+//SetAmbientLight 0.2 0.2 0.2
+SetAmbientLight 0.5 0.5 0.5
+
+
+ExecuteScript Regions.script

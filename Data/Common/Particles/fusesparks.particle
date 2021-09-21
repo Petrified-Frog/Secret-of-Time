@@ -1,0 +1,67 @@
+fusesparks
+{
+	quota	30
+	material	fusesparks
+	particle_width	0.4
+	particle_height	0.4
+	cull_each	false
+	renderer	billboard
+	sorted	false
+	local_space	false
+	iteration_interval	0
+	nonvisible_update_timeout	0
+	billboard_type	point
+	billboard_origin	center
+	billboard_rotation_type	texcoord
+	common_up_vector	0 1 0
+	point_rendering	false
+	accurate_facing	false
+
+	emitter Ring
+	{
+		angle	71.54
+		colour	1 1 1 1
+		colour_range_start	1 1 1 1
+		colour_range_end	1 1 1 1
+		direction	1 1 1
+		emission_rate	50
+		position	0 0 0
+		velocity	1
+		velocity_min	1
+		velocity_max	1
+		time_to_live	0.6
+		time_to_live_min	0.6
+		time_to_live_max	1
+		duration	0
+		duration_min	0
+		duration_max	0
+		repeat_delay	3
+		repeat_delay_min	3
+		repeat_delay_max	4
+		width	0.2
+		height	0.2
+		depth	1.9
+		inner_width	0.2564
+		inner_height	0.5
+	}
+
+	affector LinearForce
+	{
+		force_vector	0 -10 0
+		force_application	add
+	}
+
+	affector DirectionRandomiser
+	{
+		randomness	20
+		scope	0.1795
+		keep_velocity	false
+	}
+
+	affector DeflectorPlane
+	{
+		plane_point	0 0 0
+		plane_normal	0 1 0
+		bounce	0.2
+	}
+}

@@ -1,0 +1,77 @@
+Shockwave
+{
+	quota	200
+	material	shockwave
+	particle_width	2
+	particle_height	2
+	cull_each	true
+	renderer	billboard
+	sorted	true
+	local_space	false
+	billboard_type	point
+	billboard_origin	center
+	billboard_rotation_type	vertex
+	common_up_vector	0 1 0
+	point_rendering	false
+	accurate_facing	false
+
+
+	emitter Ring
+	{
+		angle	180
+		colour	1 1 1 1
+		colour_range_start	1 1 1 1
+		colour_range_end	1 1 1 1
+		direction	1 0 0
+		emission_rate	1000
+		position	0 0 0
+		velocity	9
+		velocity_min	9
+		velocity_max	12
+		time_to_live	0.6
+		time_to_live_min	0.6
+		time_to_live_max	1.0
+		duration	0
+		duration_min	0
+		duration_max	0
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0		
+		width	2
+		height	2
+		depth	1
+		inner_width	0.5
+		inner_height	0.5
+	}
+	
+	affector ColourFader2
+	{
+		red1	0
+		green1	0.05
+		blue1	0.01
+		alpha1	0
+		red2	0
+		green2	1
+		blue2	1
+		alpha2	0
+		state_change	0.8
+	}
+
+	affector Rotator
+   	{
+        	rotation_range_start  		0
+        	rotation_range_end   	 	360
+        	rotation_speed_range_start  	-60
+        	rotation_speed_range_end    	200
+   	}
+   	affector ColourInterpolator
+	{
+		time0 0
+		colour0 1 1 1 1
+		time1 1
+		colour1 1 1 1 0
+	}
+
+
+}
+

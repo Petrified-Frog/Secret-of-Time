@@ -1,0 +1,9 @@
+material hourglass_mat
+{
+	technique
+	{
+		pass
+		{
+		}
+	}
+}

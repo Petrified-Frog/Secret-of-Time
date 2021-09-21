@@ -1,0 +1,31 @@
+material TimeSphereFirst
+{
+	technique
+	{
+		pass
+		{
+			//scene_blend alpha
+
+			texture_unit
+			{
+				texture blob.png
+			}
+		}
+	}
+}
+
+material TimeSphereSecond
+{
+	technique
+	{
+		pass
+		{
+			//scene_blend alpha
+
+			texture_unit
+			{
+				texture jumpplane.png
+			}
+		}
+	}
+}

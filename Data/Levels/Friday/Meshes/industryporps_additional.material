@@ -1,0 +1,40 @@
+material Industry_Alpha_mat
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			alpha_rejection greater_equal 128
+
+			texture_unit
+			{
+				texture industry_color.TGA
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material staticbarrelturret_mat
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture Barrelturret_COLOUR.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

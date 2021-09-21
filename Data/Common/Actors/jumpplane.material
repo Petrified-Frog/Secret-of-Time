@@ -1,0 +1,16 @@
+material jumpplanematerial
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			cull_software none
+			cull_hardware none
+			texture_unit
+			{
+				texture jumpplane.png
+			}
+		}
+	}
+}

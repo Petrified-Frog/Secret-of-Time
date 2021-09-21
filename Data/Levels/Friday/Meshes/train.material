@@ -1,0 +1,8 @@
+material Carrage_mat : CommonShader
+{
+	set_texture_alias DiffuseMap TrainCarrage_matCOLOUR.tga
+}
+material Train_mat : CommonShader
+{
+	set_texture_alias DiffuseMap TrainEngine_matCOLOUR.tga
+}

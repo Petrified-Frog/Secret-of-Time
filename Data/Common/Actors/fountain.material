@@ -1,0 +1,60 @@
+material fountain/Anim_Hodges02_hodges_mat
+{
+	technique
+	{
+		pass
+		{
+			
+
+			texture_unit
+			{
+				texture fatmanTexture.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material fountain/fountain_cannon_mat
+{
+	technique
+	{
+		pass
+		{
+			
+
+			texture_unit
+			{
+				texture Canon_T.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}
+material fountain/fountain_main_mat
+{
+	technique
+	{
+		pass
+		{
+			
+
+			texture_unit
+			{
+				texture Fountain_T.tga
+				tex_coord_set 0
+				colour_op modulate
+				scale 1 1
+				scroll 0 0
+				rotate 0
+			}
+		}
+	}
+}

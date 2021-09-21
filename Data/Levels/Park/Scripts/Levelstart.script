@@ -1,0 +1,7 @@
+LoadNavigationMesh Park.obj
+
+CreateCollisionElement Park.obj
+
+ExecuteScript Regions.script
+ExecuteScript Entities.script
+ExecuteScript Lights.script

@@ -1,0 +1,57 @@
+material ResourceLoaderBaseCommon
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture BaseCommon.png
+			}
+		}
+	}
+}
+material ResourceLoaderBaseLevel
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture BaseLevel.png
+			}
+		}
+	}
+}
+
+material ResourceLoaderHolder
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture Holder.png
+			}
+		}
+	}
+}
+material ResourceLoaderBar
+{
+	technique
+	{
+		pass
+		{
+			scene_blend alpha_blend
+			texture_unit
+			{
+				texture Bar.png
+			}
+		}
+	}
+}
